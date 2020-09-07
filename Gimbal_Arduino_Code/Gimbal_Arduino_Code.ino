@@ -13,9 +13,9 @@ float roll_pid_p=0;
 float roll_pid_i=0;
 float roll_pid_d=0;
 
-double roll_kp=2;//3.55
-double roll_ki=0.1;//0.003
-double roll_kd=0.1;//2.05
+double roll_kp=2;
+double roll_ki=0.1;
+double roll_kd=0.07;
 float roll_desired_angle = 0;    
 /*----------------------------PID - Roll----------------------------*/
 
@@ -26,9 +26,9 @@ float pitch_pid_p=0;
 float pitch_pid_i=0;
 float pitch_pid_d=0;
 
-double pitch_kp=2;//3.55
-double pitch_ki=0.1;//0.003
-double pitch_kd=0.05;//2.05
+double pitch_kp=2;
+double pitch_ki=0.1;
+double pitch_kd=0.05;
 float pitch_desired_angle = 0;
 /*----------------------------PID - Pitch----------------------------*/
 
@@ -246,7 +246,7 @@ void loop() {
   Serial.print("   |   ");
   Serial.print("Pitch PWM: ");
   Serial.println(PWM_pitch);
-  //delay(2);
+  delay(5);
 }
 
 
