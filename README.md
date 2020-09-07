@@ -1,4 +1,4 @@
-# CameraGimbal
+# 3D-Printable Handheld Camera Gimbal
 This is the Arduino code for a camera gimbal I designed. The handheld camera gimbal is modelled after the Tarot Professional 5D2 gimbal. It is designed such that it can be assembled and disassembled quickly using PVC pipes and 3D-printed parts.
 
 
